@@ -1,13 +1,85 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  display: inline-flexbox;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px; 
+  border: 1px dotted rgba(9,9,121,1);       
+  text-align: center; 
+  font-family: 'Press Start 2P', cursive; 
+  color:white;
+  font-weight: 100;
+  background: linear-gradient(90deg, rgba(132,210,197) 0%, rgba(228,201,136) 44%, rgb(222, 138, 119) 100%); 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 { 
+  font-weight: 100;
+  font-size: 2.5em;
+}
+   
+.info {
+  font-size: 1.5rem;
+}
+   
+input[type=text]{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+   border-radius: 20px;
+   border: 1px solid black;
+   width: 400px;
+   height: 30px;
+   padding: 10px;
+  }
+  
+input[type=text]:focus {
+   outline: none;
+   font-size: larger;
+   font-weight: 700;
+   font-style: normal;
+   font-family: 'Press Start 2P', Bold;
+   color: rgb(4, 145, 155);
+}
+
+.eight-ball {
+  background-color: #B05A7A;
+  border: 1px solid #181D31;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+    
+.content {
+  background: white;
+  border: 1px solid #333;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin: 25% auto;
+}
+    
+.eight {
+  font-size: 5em;
+  margin: 25% auto;
+  color: #B05A7A;
+}
+    
+.answer {
+  align-items: center;
+  padding: 50px;
+  color: rgb(4, 145, 155);
+  letter-spacing: 1px;
+  font: size 10px;
+  font-weight: 700;
+}
+
+.error {
+  padding: 35px;
+  border-radius: 30%;
+  color: rgb(4, 145, 155);
+  letter-spacing: 1px;
+  font: size 8px;
+  font-weight: 700;
 }
